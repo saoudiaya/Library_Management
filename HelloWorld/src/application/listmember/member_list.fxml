@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.listmember.member_listController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="367.0" prefWidth="803.0">
+         <columns>
+            <TableColumn fx:id="nameCol" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="surnameCol" prefWidth="75.0" text="Surname" />
+            <TableColumn fx:id="cinCol" prefWidth="75.0" text="Member CIN" />
+            <TableColumn fx:id="mobileCol" prefWidth="75.0" text="Mobile" />
+            <TableColumn fx:id="creditCol" prefWidth="75.0" text="Credit" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleEditMemberOption" text="Edit Member" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleBookMemberOption" text="Delete Member" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleRefreshMemberOption" text="Refresh Member" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TableView>
+   </children>
+</AnchorPane>

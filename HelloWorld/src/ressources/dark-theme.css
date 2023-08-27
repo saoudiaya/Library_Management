@@ -1,0 +1,106 @@
+*{
+	-fx-primary :#2A2E37;
+	-fx-secondry : #FFFF8D;
+	-fx-primarytext : #B2B2B2;
+	-fx-red: #FF0000;
+	
+}
+
+.root{
+	-fx-background-color: -fx-primary;
+}
+.button{
+	-fx-text-fill: -fx-primarytext;
+	-fx-background-color: -fx-primary;
+	-fx-border-color: -fx-secondry;
+	-fx-border-radius: 30px;
+	-fx-background-radius: 20px;
+}
+
+.button:hover{
+	-fx-border-color: -fx-secondry;
+	-fx-background-color: -fx-secondry;
+	-fx-text-fill: -fx-primary;
+}
+
+.button-menu{
+	-fx-text-fill: -fx-primarytext;
+	-fx-background-color: -fx-primary;
+	-fx-border-color: -fx-secondry;
+}
+/*Login Screen specific */
+
+
+.text-field{
+	-fx-text-fill: black;
+	-fx-background-radius: 5px;
+	
+}
+
+.wrong-credentials{
+	-fx-border-color: -fx-red;
+}
+
+
+/*Desktop Screen specific */
+.tab{
+	-fx-pref-width: 149;
+	-fx-pref-height: 30;
+	
+}
+.tab-header-background{
+	-fx-background-color: -fx-primary;
+}
+ /* Menu bar*/
+.menu-bar{
+	-fx-base : -fx-primary;
+}
+.context-menu{
+	-fx-background-color: derive(-fx-primary,20%);
+}
+
+/*Hamburger styling */
+.jfx-hamburger-icon{
+	-fx-spacing: 7;
+}
+.jfx-hamburger-icon StackPane{
+	-fx-background-color: -fx-secondry;
+	-fx-background-radius: 5px;
+}
+ 
+.toolbar-button{
+	-fx-background-color:  derive(-fx-primary,20%);
+	
+}
+.toolbar-button:hover {
+	-fx-background-color: -fx-secondry;
+	-fx-text-fill: -fx-primary;
+}
+
+.toolbar-button:hover .glyph-icon{
+	-fx-fill: -fx-primary;
+}
+ /*text styling */
+.main-text{
+	-fx-fill: #FFFF8D;
+	-fx-font-size: 10pt;
+	-fx-text-alignment: center;
+}
+
+.submission-container{
+	fx-background-color:  derive(-fx-primary,20%);
+}
+/*Chart Styling */
+.data0.chart-pie{
+	-fx-pie-color : -fx-secondry;
+}
+
+.data1.chart-pie{
+	-fx-pie-color : blue;
+}
+
+.chart-pie-label{
+	-fx-fill: -fx-secondry;
+}
+
+
