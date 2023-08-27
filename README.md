@@ -26,7 +26,7 @@
 <br>
 <h1 align="left">Add Book</h1>
 <div align="center">
-    <img src=https://user-images.githubusercontent.com/105887782/263555117-4d7bc129-ba9b-4826-aacd-17c486d76a1a.png" alt="Centered Image">
+    <img src="https://user-images.githubusercontent.com/105887782/263555117-4d7bc129-ba9b-4826-aacd-17c486d76a1a.png" alt="Centered Image">
 </div>
 <br>
 <h1 align="left">Book List</h1>
